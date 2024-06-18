@@ -19,5 +19,12 @@ if(innerWidth>=700){
   document.querySelector('nav').prepend(div);
 
   let spanMenu=document.createElement('span');
-  document.querySelector('nav > div').prepend(spanMenu);
+  spanMenu.style.marginBottom=`7px`;
+  document.querySelector('nav > div').append(spanMenu);
+  let spanMenuTwo=document.createElement('span');
+  spanMenuTwo.style.marginBottom=`7px`;
+  document.querySelector('nav > div').append(spanMenuTwo);
+  let spanMenuThree=document.createElement('span');
+  spanMenuThree.style.marginBottom=`7px`;
+  document.querySelector('nav > div').append(spanMenuThree);
 }

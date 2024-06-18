@@ -170,6 +170,11 @@ article{
     background: black;
   }
 }
+@media(max-width:370px){
+  body > main > header > nav > img{
+    display:none;
+  }
+}
 /* ----------------------------------------- */
 article > h2{
   margin-left: auto;
@@ -200,7 +205,8 @@ article > section{
   height:500px;
 }
 .block > div{
-  width:440px;
+  width:100%;
+  max-width:440px;
   height:400px;
 }
 hr{
