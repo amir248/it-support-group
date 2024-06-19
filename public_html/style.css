@@ -5,6 +5,9 @@
 }
 
 body{
+  font-family:"NeueMachina","Arial";
+  src: url("public_html/Neue-Machina/NeueMachina-Regular.otf") format("otf");
+
   margin-left: auto;
   margin-right: auto;
   max-width: 1920px;
@@ -17,7 +20,6 @@ main{
   /* mar */
 }
 body > main > header{
-  font-family:"NeueMachina","Arial";
   display: flex;
   width:100%;
   /* max-width:1860px; */
