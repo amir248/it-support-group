@@ -29,7 +29,7 @@ article > section{
 .block > div{
   width:100%;
   max-width:440px;
-  height:400px;
+  height:200px;
 }
 hr.oK{
   display: block;
@@ -60,6 +60,10 @@ hr.oK{
   width:100%;
   z-index:1;
 }
+.block > div > p:nth-child(1){
+  color:green;
+  font-size: 30px;
+}
 .middleBox{
   display:flex;
   justify-content: center;
@@ -74,7 +78,11 @@ hr.oK{
 .middleBox > div{
   width:100%;
   max-width:710px;
-  height:400px;
+  height:200px;
+}
+.middleBox > div > p:nth-child(1){
+color:green;
+font-size:30px;
 }
 .bottomBox{
   display:flex;
@@ -86,6 +94,15 @@ hr.oK{
   height:500px;
   border:2px solid grey;
   border-radius:70px;
+}
+.bottomBox > div > p:nth-child(1){
+color:green;
+font-size: 30px;
+}
+.bottomBox > div{
+  width:100%;
+  max-width:710px;
+  height:200px;
 }
 .bottomBoxTwo{
   display:flex;
