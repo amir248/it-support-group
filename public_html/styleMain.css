@@ -429,6 +429,7 @@ picture > img{
   max-width: 100%;
 }
 .firstPhoto{
+  margin-top:4px;
   width:100%;
   max-width: 540px;
   height:500px;
@@ -436,6 +437,7 @@ picture > img{
   border-radius: 70px;
 }
 .secondPhoto{
+  margin-top:4px;
   width:100%;
   max-width: 810px;
   height:500px;
@@ -443,6 +445,7 @@ picture > img{
   border-radius: 70px;
 }
 .thirdPhoto{
+  margin-top:4px;
   width:100%;
   max-width: 604px;
   height:500px;
