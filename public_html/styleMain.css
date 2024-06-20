@@ -424,3 +424,28 @@ footer > div{
   justify-content: space-between;
   align-items: space-around;
 }
+picture > img{
+  width:100%;
+  max-width: 100%;
+}
+.firstPhoto{
+  width:100%;
+  max-width: 540px;
+  height:500px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.secondPhoto{
+  width:100%;
+  max-width: 810px;
+  height:500px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.thirdPhoto{
+  width:100%;
+  max-width: 604px;
+  height:500px;
+  object-fit: cover;
+  border-radius: 70px;
+}
